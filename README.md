@@ -42,9 +42,9 @@ Each reserved word is represented by the lexeme, which is a legal identifier (w
 Identifiers are represented by code 296 internal translator mnemonic name of IDENTIFIER. The legal identifier
 lexemes are denoted by the following context free grammar expressed in EBNF.
 
-\<IDENTIFIER\> ::= \<letter\> (\<letter\> | \<decimal digit\>)*
-\<letter\> ::= A | ... | Z | a | ... | z | _
-\<decimal digit\> ::= 0 | ... | 9
+\<IDENTIFIER\> ::= \<letter\> (\<letter\> | \<decimal digit\>)*  
+\<letter\> ::= A | ... | Z | a | ... | z | _  
+\<decimal digit\> ::= 0 | ... | 9  
 
 ### Integer Literals
 
