@@ -1,0 +1,25 @@
+  1   int static float main()
+  2   {
+  3        int n, num, digit, rev = 0;
+  4   
+  5        n = num;
+  6        num = 1;
+  7   
+  8        while (num != 0)
+  9        {
+ 10            digit = num % 10;
+ 11            rev = (rev * 10) + digit;
+ 12            num = num / 10;
+ 13        } 
+ 14   
+ 15        printf(" The reverse of the number is: ");;
+ 16   
+ 17        if (n == rev)
+ 18            printf(" The number is a palindrome");
+ 19        else
+ 20            printf(" The number is not a palindrome");
+ 21   
+ 22       return 0;
+ 23   }
+Compilation Complete. 0 errors reported.
+Source Program =   23 lines.

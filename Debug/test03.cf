@@ -1,0 +1,12 @@
+unsigned int f(int);
+float add(int x, double y) {
+return x + y;
+}
+
+int main()
+{
+int x;
+int y;
+printf(x + y, add(x, y));
+return 0;
+}

@@ -1,0 +1,11 @@
+  1   unsigned int f(int);
+  2   float add(int x, double y) {
+  3   return x + y;
+  4   }
+  5   
+  6   int main()
+  7   {
+  8   int x;
+  9   int y;
+ 10   printf(x + y, add(x, y);
+Parsing failed. Error on line: 10 at ;

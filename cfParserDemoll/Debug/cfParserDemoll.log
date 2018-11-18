@@ -1,0 +1,18 @@
+﻿  y.tab.c
+y.tab.c(578): warning C4013: 'yylex' undefined; assuming extern returning int
+y.tab.c(618): warning C4102: 'yynewerror': unreferenced label
+y.tab.c(623): warning C4102: 'yyerrlab': unreferenced label
+  lex.yy.c
+cfScannerDemoll.l(104): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(346): note: see declaration of 'strncpy'
+cfScannerDemoll.l(105): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(90): note: see declaration of 'strcat'
+cfScannerDemoll.l(106): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(90): note: see declaration of 'strcat'
+cfScannerDemoll.l(158): warning C4013: 'yyparse' undefined; assuming extern returning int
+cfScannerDemoll.l(115): warning C4101: 'token': unreferenced local variable
+lex.yy.c(1864): warning C4996: 'fileno': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _fileno. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2450): note: see declaration of 'fileno'
+  Generating Code...
+  cfParserDemoll.vcxproj -> C:\Users\david\Documents\Visual Studio 2015\Projects\C++\cfParserDemoll\Debug\cfParserDemoll.exe
+  cfParserDemoll.vcxproj -> C:\Users\david\Documents\Visual Studio 2015\Projects\C++\cfParserDemoll\Debug\cfParserDemoll.pdb (Partial PDB)

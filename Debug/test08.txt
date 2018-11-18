@@ -1,0 +1,32 @@
+  1   unsigned int f(int);
+  2   float add(int x, double y) {
+  3   return x + y;
+  4   }
+  5   
+  6   int main()
+  7   {
+  8   int max = 200;
+  9   int a[200];
+ 10   int x;
+ 11   int y;
+ 12   unsigned i = 0;
+ 13   scanf( x, y);
+ 14   while( i < MAX ) {
+ 15   a[i++] = 0;
+ 16   }
+ 17   i = 0;
+ 18   while( i < MAX ) {
+ 19   a[i] = x + y;
+ 20   scanf( x, y);
+ 21   i++;
+ 22   };
+ 23   if( i > 0 ) {
+ 24   printf( a[i]/ i );
+ 25   }
+ 26   else {
+ 27   printf("i <= 0");
+ 28   }
+ 29   return 0;
+ 30   }
+Compilation Complete. 0 errors reported.
+Source Program =   30 lines.
